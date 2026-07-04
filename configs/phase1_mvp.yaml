@@ -1,0 +1,26 @@
+project_id: "sipar-498412"
+
+tile_id: "Tile_054"
+
+paths:
+  tile_geojson: "data/boundaries/kerala_boundary_tiles.geojson"
+
+sentinel1:
+  polarization: "VV"
+  orbit_pass: "DESCENDING"
+  instrument_mode: "IW"
+
+dates:
+  pre_start: "2018-07-20"
+  pre_end: "2018-08-01"
+  flood_start: "2018-08-15"
+  flood_end: "2018-08-31"
+
+thresholds:
+  change_db: -2.5
+  permanent_water_occurrence: 90
+  slope_threshold: 15
+
+export:
+  scale: 10
+  folder: "Kerala_Flood_Tile024_MVP"

@@ -1,0 +1,2 @@
+tile_id,pre_start,pre_end,flood_start,flood_end,polarization,orbit_pass,pre_image_count,flood_image_count,change_threshold_db,permanent_water_occurrence,slope_threshold,flood_area_sqkm
+Tile_054,2018-07-20,2018-08-01,2018-08-15,2018-08-31,VV,DESCENDING,3,4,-2.5,90,15,1.4610913859489891

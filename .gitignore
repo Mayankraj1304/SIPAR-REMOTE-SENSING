@@ -1,0 +1,10 @@
+flood_area = (
+    flood_mask.selfMask()
+    .multiply(ee.Image.pixelArea())
+    .reduceRegion(
+        reducer=ee.Reducer.sum(),
+        geometry=roi,
+        scale=10,
+        maxPixels=1e13
+    )
+)

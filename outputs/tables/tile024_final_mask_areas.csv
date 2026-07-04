@@ -1,0 +1,4 @@
+tile_id,mask_type,threshold_db,flood_area_sqkm
+Tile_054,sensitive,-2.0,2.1718982957724178
+Tile_054,balanced,-2.5,1.4610913859489891
+Tile_054,conservative,-3.0,0.9630508982443717
