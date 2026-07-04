@@ -28,7 +28,7 @@ from kerala_flood.flood_detection import (
 # -----------------------------
 # Settings
 # -----------------------------
-TOP_N_TILES = 10   # first run 10, later change to 81 for all tiles
+TOP_N_TILES = 81   # first run 10, later change to 81 for all tiles
 
 MASK_SETTINGS = {
     "sensitive": -2.0,

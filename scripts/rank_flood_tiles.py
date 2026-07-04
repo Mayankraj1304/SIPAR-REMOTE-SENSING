@@ -5,7 +5,7 @@ import pandas as pd
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
 # Change this if your file name is different
-INPUT_CSV = PROJECT_ROOT / "outputs" / "tables" / "batch_tile_flood_areas_top10.csv"
+INPUT_CSV = PROJECT_ROOT / "outputs" / "tables" / "batch_tile_flood_areas_top81.csv"
 
 OUTPUT_DIR = PROJECT_ROOT / "outputs" / "tables"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
